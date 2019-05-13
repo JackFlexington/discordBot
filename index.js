@@ -11,10 +11,9 @@ const client = new Discord.Client(); // Initialize
 console.log("========================");
 console.log("~~Initialization DEBUGGING messages~~");
 console.log("BOT_TOKEN pulled from config.env file: " + process.env.BOT_TOKEN);
-console.log("========================");
+console.log(" - - - - - - - - - - - - ");
 
 // Event Handler debugging messages
-console.log("========================");
 console.log("~~Add Events in DEBUGGING messages~~");
 
 // Read all files within the 'events' folder -- 'err' param = (human read-able message, name of file, linenumber of failure) || 'files' param = array of filenames in directory
@@ -37,15 +36,15 @@ fs.readdir('./events/', (err, files) => {
 /* LISTENERS */
 // Custom funny message
 client.on('message', msg => {
-  if (msg.content === 'What you think about Jonathon?') {
+  // Jon Message
+  if (msg.content === 'What do you think about Jonathon?') {
     msg.reply('I hate him.');
-  }
-});
-
-client.on('message', msg => {
+  } // END -- IF
+  
+  // Jacob Message
   if (msg.content === 'What do you think about Jacob?') {
     msg.reply('He\'s the one and only true god.');
-  }
+  } // END -- IF
 });
 
 // Establish Web Socket (you will need to acquire one from Discord)
