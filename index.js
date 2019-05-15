@@ -32,20 +32,5 @@ fs.readdir('./events/', (err, files) => {
   console.log("========================"); // END -- Event Handler debugging messages
 }); // END -- fs.readdir
 
-
-/* LISTENERS */
-// Custom funny message
-client.on('message', msg => {
-  // Jon Message
-  if (msg.content === 'What do you think about Jonathon?') {
-    msg.reply('I hate him.');
-  } // END -- IF
-  
-  // Jacob Message
-  if (msg.content === 'What do you think about Jacob?') {
-    msg.reply('He\'s the one and only true god.');
-  } // END -- IF
-});
-
 // Establish Web Socket (you will need to acquire one from Discord)
 client.login(process.env.BOT_TOKEN); // the 'dotenv' library will import from the configuration file the appropriate token
