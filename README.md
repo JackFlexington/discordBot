@@ -103,3 +103,7 @@ const fs = require('fs');
 
 # Sources
   1. [FreeCodeCamp - Discord Bot under 15-minutes](https://medium.freecodecamp.org/how-to-create-a-discord-bot-under-15-minutes-fb2fd0083844)
+
+# Links to help explain various files
+* [package-lock.json](https://docs.npmjs.com/files/package-lock.json)
+* [package.json](https://docs.npmjs.com/files/package.json)
