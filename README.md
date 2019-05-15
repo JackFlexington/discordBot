@@ -1,9 +1,6 @@
 # Contributors
-Jacob Storer
-James Anunda
-
-# Quickstart Guide
-*This is designed for those of us who've already created a Discord Bot prior to this*
+* Jacob Storer
+* James Anunda
 
 ## List of required downloads
 * Node.js
@@ -11,6 +8,7 @@ James Anunda
   * **Link**: [Node.js](https://nodejs.org/en/) *<-- This will download both node.js and npm!*
   * **Note**: *use commands "node -v" & "npm -v" to verify the installation was successful.*
 
+# Our Quick-Start Guide
 ## Initialize folder for the Local project (*Files for the Bot*)
 ### Open terminal.app and execute the following commands
 ```bash
@@ -46,7 +44,7 @@ Navigate to the Discord developer web page
 ## Give life to the bot
 ```bash
 # Execute following command within the "test-bot" directory
-npm install nodemon --save-dev // Reloads the code as soon as it changes
+npm install nodemon --save-dev # Reloads the code as soon as it changes
 ```
 Add following scripts to package.json files
 ```json
@@ -79,13 +77,17 @@ npm install dotenv
 ```
 ```javascript
 // Add the following lines of code inside the 'index.js'
-require('dotenv').config(); // Import environment library
+// Note: __dirname is a built-in feature that targets the file structure as relative to 'index.js'.
+require('dotenv').config({ path: __dirname + '/config.env' }); // Import environment library
 client.login(process.env.BOT_TOKEN); // the 'dotenv' library will import from the configuration file the appropriate token
 ```
 
 ## Adding the Welcome message
+** Currently work in progress **
 ## Kick Users
+** Currently work in progress **
 ## Grant Bot Permissions
+** Currently work in progress **
 ## Refactorization
 ### Events folder
 ```javascript
@@ -97,6 +99,7 @@ client.login(process.env.BOT_TOKEN); // the 'dotenv' library will import from th
 const fs = require('fs');
 ```
 ### Commands folder
+** Currently work in progress **
 
 # Sources
   1. [FreeCodeCamp - Discord Bot under 15-minutes](https://medium.freecodecamp.org/how-to-create-a-discord-bot-under-15-minutes-fb2fd0083844)
