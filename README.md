@@ -1,6 +1,6 @@
 # Contributors
 * Jacob Storer
-* James Anunda
+* James Anunda (maybe?)
 
 ## List of required downloads
 * Node.js
