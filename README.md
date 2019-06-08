@@ -6,6 +6,7 @@
 
 # Updates Coming
 * Push bot out onto remote server for 24/7 run-time.
+* Creation of poll generation function
 
 ## List of required downloads
 * Node.js
