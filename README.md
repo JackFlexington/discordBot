@@ -1,6 +1,11 @@
-# Contributors
-* Jacob Storer
-* James Anunda (maybe?)
+# Current Progress
+* Project is live and hosted locally on my work computer.
+* File Structure in place to store functions logically
+  * UserCommand-based functions
+  * Event-based functions
+
+# Updates Coming
+* Push bot out onto remote server for 24/7 run-time.
 
 ## List of required downloads
 * Node.js
@@ -8,7 +13,7 @@
   * **Link**: [Node.js](https://nodejs.org/en/) *<-- This will download both node.js and npm!*
   * **Note**: *use commands "node -v" & "npm -v" to verify the installation was successful.*
 
-# Our Quick-Start Guide
+# The Quick-Start Guide
 ## Initialize folder for the Local project (*Files for the Bot*)
 ### Open terminal.app and execute the following commands
 ```bash
@@ -107,3 +112,7 @@ const fs = require('fs');
 # Links to help explain various files
 * [package-lock.json](https://docs.npmjs.com/files/package-lock.json)
 * [package.json](https://docs.npmjs.com/files/package.json)
+
+# Contributors
+* Jacob Storer
+* James Anunda (maybe?)
