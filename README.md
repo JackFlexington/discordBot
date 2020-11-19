@@ -116,4 +116,3 @@ const fs = require('fs');
 
 # Contributors
 * Jacob Storer
-* James Anunda (maybe?)
